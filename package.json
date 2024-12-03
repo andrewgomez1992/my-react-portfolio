@@ -1,20 +1,14 @@
 {
   "name": "my-react-portfolio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable and customizable React portfolio template.",
   "private": false,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/my-react-portfolio.git"
+    "url": "https://github.com/andrewgomez1992/my-react-portfolio.git"
   },
-  "author": "Your Name",
+  "author": "Andrew Gomez",
   "license": "MIT",
   "keywords": [
     "react",
@@ -26,7 +20,7 @@
   ],
   "scripts": {
     "start": "react-scripts start",
-    "build": "babel src --out-dir dist --copy-files",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,12 +29,6 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "styled-components": "^6.1.13"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.25.9",
-    "@babel/core": "^7.21.0",
-    "@babel/preset-env": "^7.26.0",
-    "@babel/preset-react": "^7.21.0"
   },
   "eslintConfig": {
     "extends": [
